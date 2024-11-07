@@ -5,9 +5,12 @@ import FourSection from "../components/four_section";
 import OurMission from "../components/our_mission";
 import Break03 from "../components/break03";
 import OurServices from "../components/our_services";
+//import SifenServices from "../components/sifenServices";
+
 import Team from "../components/team";
 import FourSection2 from "../components/four_section2";
 import ImageScroller from "../components/scroll";
+import SifenServices from "../components/sifenServices";
 
 export default function Home() {
   return (
@@ -18,7 +21,9 @@ export default function Home() {
       <Break01 /> */}
       <ImageScroller />
       <FourSection />
-      <OurServices />
+      {/* <OurServices /> */}
+       {/* <SifenServices />  */}
+       <SifenServices />
       <FourSection2 />
       <Team />
       <OurMission />
