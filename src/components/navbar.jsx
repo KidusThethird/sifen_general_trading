@@ -1,6 +1,6 @@
 //import logo from "../assets/images/logo01.png";
 import logo from "../assets/images/sifen/logo01.png";
-import logosmall from "../assets/images/sifen/logo01.png";
+import logosmall from "../assets/images/sifen/smalllogo.png";
 
 import { X, Menu, Facebook, Instagram, Youtube } from "lucide-react";
 import React, { useState } from "react";
@@ -105,7 +105,7 @@ export default function NavBar() {
         <div className="block md:hidden relative w-full font-serif">
           <div
             onClick={toggleDrawer}
-            className="flex cursor-pointer justify-between px-4 bg-gray-400 text-sky-900"
+            className="flex cursor-pointer justify-between px-4 bg-gray-200 text-orange-900"
           >
             {drawer ? <X className="my-auto" /> : <Menu className="my-auto" />}
             <img src={logosmall} className="w-fit" alt="" />
@@ -114,21 +114,21 @@ export default function NavBar() {
             initial={{ x: "-100%" }}
             animate={{ x: drawer ? "0%" : "-100%" }}
             transition={{ duration: 0.3 }} // Smooth transition without bounce
-            className="absolute top-11 bg-gray-400 w-3/4 rounded-br-3xl shadow-2xl shadow-sky-900"
+            className="absolute top-11 bg-gray-200 w-3/4 rounded-br-3xl shadow-2xl shadow-sky-900"
           >
-            <div className="px-8 flex flex-col space-y-3 py-3">
+            <div className="px-8 text-orange-400 flex flex-col space-y-3 py-3">
               <a
                 href="/"
-                className={`hover:text-sky-600 hover:scale-105 duration-100 ${
-                  pathName == "/" ? "text-sky-600" : ""
+                className={`hover:text-orange-800 hover:scale-105 duration-100 ${
+                  pathName == "/" ? "text-orange-800" : ""
                 }`}
               >
                 Home
               </a>
               <a
                 href="/about"
-                className={`hover:text-sky-600 hover:scale-105 duration-100 ${
-                  pathName == "/about" ? "text-sky-800" : ""
+                className={`hover:text-orange-800 hover:scale-105 duration-100 ${
+                  pathName == "/about" ? "text-orange-800" : ""
                 }`}
               >
                 About us
@@ -136,22 +136,30 @@ export default function NavBar() {
 
               <a
                 href="/services"
-                className={`hover:text-sky-600 hover:scale-105 duration-100 ${
-                  pathName == "/services" ? "text-sky-800" : ""
+                className={`hover:text-orange-800 hover:scale-105 duration-100 ${
+                  pathName == "/services" ? "text-orange-800" : ""
                 }`}
               >
                 Services
               </a>
               <a
                 href="/coffee"
-                className={`hover:text-sky-600 hover:scale-105 duration-100 ${
-                  pathName == "/coffee" ? "text-sky-800" : ""
+                className={`hover:text-orange-800 hover:scale-105 duration-100 ${
+                  pathName == "/coffee" ? "text-orange-800" : ""
                 }`}
               >
                 Coffee
               </a>
 
-              <a href="/contact"> Contact Us</a>
+              <a
+                href="/contact"
+                className={`hover:text-orange-800 hover:scale-105 duration-100 ${
+                  pathName == "/cocontactffee" ? "text-orange-800" : ""
+                }`}
+              >
+                Contact
+              </a>
+
             </div>
           </motion.div>
         </div>
