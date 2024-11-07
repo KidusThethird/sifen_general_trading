@@ -7,10 +7,14 @@ import React from "react";
 
 // import Image04 from "../assets/images/new/four/img14.jpg";
 
-import Image01 from "../assets/images/new/four/img15.jpg";
-import Image02 from "../assets/images/new/four/img16.jpg";
-import Image03 from "../assets/images/new/four/img17.jpg";
-import Image04 from "../assets/images/new/four/img18.jpg";
+import Image01 from "../assets/images/sifen/scroll/img01.jpg";
+import Image02 from "../assets/images/sifen/scroll/img02.jpg";
+import Image03 from "../assets/images/sifen/scroll/img03.jpg";
+import Image04 from "../assets/images/sifen/scroll/img04.jpg";
+
+// import Image02 from "../assets/images/new/four/img16.jpg";
+// import Image03 from "../assets/images/new/four/img17.jpg";
+// import Image04 from "../assets/images/new/four/img18.jpg";
 
 export default function FourSection() {
   return (
@@ -19,21 +23,14 @@ export default function FourSection() {
         <div className="w-full md:grid grid-cols-2">
           <div className="my-auto">
             <h1 className="p-8">
-              At Birara Dragon Bridge General Trading, we are dedicated to
-              delivering high-quality products and services across diverse
-              industries.{" "}
+            At Sifen General Trading, we take pride in offering premium Ethiopian coffee beans that are celebrated globally for their rich flavors, aromatic profiles, and high quality. As one of the leading exporters of Ethiopian coffee, we work directly with trusted local farmers in Ethiopia, ensuring that the beans we supply are sourced sustainably and ethically. {" "}
             </h1>
             <h1 className="p-8">
               {" "}
-              In the realm of medical supplies and equipment, we provide a wide
-              range of products, including premium-quality scrubs, medical
-              devices, and essential equipment for hospitals and clinics.{" "}
+              Our coffee is grown in some of the best coffee regions, where the climate and soil conditions provide the perfect environment for producing beans that offer unique, full-bodied flavors.{" "}
             </h1>
             <h1 className="p-8">
-              We also excel in cars, machinery, and electronics, sourcing and
-              supplying automobiles, heavy machinery, and electronics for
-              industrial, commercial, and personal use, featuring advanced
-              technology and gadgets.{" "}
+            Our commitment to quality is reflected in every step of the coffee-exporting process, from selecting only the finest beans to meticulously processing and packaging them for export. Whether you're a café, roastery, retailer, or distributor, we provide a reliable supply of top-tier coffee that will elevate your offerings and meet the diverse tastes of coffee enthusiasts worldwide.{" "}
             </h1>
             <h1 className="p-8">
               Our offerings in fashion, apparel, and human hair include

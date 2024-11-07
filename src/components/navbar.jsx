@@ -81,12 +81,12 @@ export default function NavBar() {
                   Services
                 </a>
                 <a
-                  href="/team"
+                  href="/coffee"
                   className={`hover:text-orange-400 hover:scale-105 duration-100 ${
-                    pathName == "/team" ? "text-orange-500" : ""
+                    pathName == "/coffee" ? "text-orange-500" : ""
                   }`}
                 >
-                  Team
+                  Coffee
                 </a>
               </div>{" "}
               <div>
@@ -143,12 +143,12 @@ export default function NavBar() {
                 Services
               </a>
               <a
-                href="/team"
+                href="/coffee"
                 className={`hover:text-sky-600 hover:scale-105 duration-100 ${
-                  pathName == "/team" ? "text-sky-800" : ""
+                  pathName == "/coffee" ? "text-sky-800" : ""
                 }`}
               >
-                Team
+                Coffee
               </a>
 
               <a href="/contact"> Contact Us</a>

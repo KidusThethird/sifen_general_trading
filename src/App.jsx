@@ -22,6 +22,7 @@ import Services from "./routes/services";
 import OurTeam from "./routes/ourteam";
 import ContactUs from "./routes/contact";
 import { ArrowBigUp } from "lucide-react";
+import Coffee from './routes/coffee'
 
 import Details01 from "./routes/service_details/details01";
 import HeroSection from "./components/hero";
@@ -44,6 +45,9 @@ function App() {
     case "/team":
       Component = OurTeam;
       break;
+      case "/coffee":
+        Component = Coffee;
+        break;
     case "/contact":
       Component = ContactUs;
       break;

@@ -20,12 +20,13 @@ export default function Home() {
 
       <Break01 /> */}
       <ImageScroller />
-      <FourSection />
+      
       {/* <OurServices /> */}
        {/* <SifenServices />  */}
        <SifenServices />
-      <FourSection2 />
-      <Team />
+       <FourSection /> 
+      {/* <FourSection2 /> */}
+      {/* <Team /> */}
       <OurMission />
     </div>
   );

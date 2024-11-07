@@ -1,7 +1,9 @@
 import React from "react";
-import logo from "../assets/images/logo01.png";
+//import logo from "../assets/images/logo01.png";
 import whatsapp from "../assets/images/whatsapplogo.png";
 import { Phone, MapPin } from "lucide-react";
+import logo from "../assets/images/sifen/sifenlogo.jpg";
+
 
 const ContactUs = () => {
   return (
@@ -21,32 +23,28 @@ const ContactUs = () => {
           {/* Phone Info */}
           <div className="space-y-4 md:w-1/2">
             <div className="flex items-center space-x-3">
-              <Phone className="h-6 w-6 text-blue-800" />
-              <span className="text-gray-700">+8619700356386</span>
+              <Phone className="h-6 w-6 text-orange-400" />
+              <span className="text-gray-700"></span>
             </div>
 
             <div className="flex items-center space-x-3">
               <img
                 src={whatsapp}
                 alt="WhatsApp"
-                className="w-8 h-8 my-auto bg-blue-800 rounded-full p-1"
+                className="w-8 h-8 my-auto bg-orange-400 rounded-full p-1"
               />
               <div>
-                <span className="text-gray-700 block">+8619700356386</span>
-                <span className="text-gray-700 block">+8613098393670</span>
+                <span className="text-gray-700 block"></span>
+                <span className="text-gray-700 block"></span>
               </div>
             </div>
           </div>
 
           {/* Address Info */}
           <div className="flex items-center space-x-3 md:w-1/2">
-            <MapPin size={32} className="text-blue-800" />
+            <MapPin size={32} className="text-orange-400" />
             <div className="text-gray-700">
-              <p>China: 深圳市南山区同方科兴科学园F区3201</p>
-              <p>
-                Hongkong Branch: 2301, BAYFIELD BUILDING, 99 HENNESSY ROAD,
-                WANCHAI
-              </p>
+             
             </div>
           </div>
         </div>
@@ -54,9 +52,8 @@ const ContactUs = () => {
         {/* Additional Information */}
         <div className="mt-10 text-center">
           <p className="text-gray-600">
-            At Birara Dragon Bridge General Trading, our mission is to enhance
-            lives and empower businesses by delivering high-quality products and
-            exceptional services across a wide range of sectors.
+          Welcome to Sifen General Trading, where we specialize in exporting premium Ethiopian coffee, importing high-quality electronics, and providing expert maintenance services for office and security equipment. We are committed to delivering reliable, top-notch products and services to meet your business needs.{" "}
+
           </p>
         </div>
       </div>

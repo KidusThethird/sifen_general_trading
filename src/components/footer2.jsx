@@ -1,5 +1,7 @@
 import React from "react";
-import logo from "../assets/images/whitelogo.png";
+//import logo from "../assets/images/whitelogo.png";
+import logo from "../assets/images/sifen/sifenlogo.jpg";
+
 import whatsapp from "../assets/images/whatsapplogo.png";
 
 import {
@@ -15,11 +17,11 @@ import {
 
 export default function Footer2() {
   return (
-    <div className="bg-sky-900 text-gray-100 p-6 font-serif">
+    <div className="bg-orange-400  text-gray-100 p-6 font-serif">
       <div className=" lg:grid grid-cols-2">
-        <img src={logo} className="w-64 p-1 rounded " alt="" />
+        <img src={logo} className="w-64 p-1 rounded bg-white rounded-2xl p-3" alt="" />
         <div>
-          <div className="w-full justify-between md:flex space-y-4 gap-10 ">
+          {/* <div className="w-full justify-between md:flex space-y-4 gap-10 ">
             <div className=" space-y-5  ">
               <div className="flex space-x-5">
                 {" "}
@@ -49,16 +51,14 @@ export default function Footer2() {
                 </h1>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="w-full space-y-4 ms:space-y-0  ms:grid grid-cols-3 py-3">
         <div>
           <div>
             <h1 className="  py-2">
-              At Birara Dragon Bridge General Trading, our mission is to enhance
-              lives and empower businesses by delivering high-quality products
-              and exceptional services across a wide range of sectors.{" "}
+            Welcome to Sifen General Trading, where we specialize in exporting premium Ethiopian coffee, importing high-quality electronics, and providing expert maintenance services for office and security equipment. We are committed to delivering reliable, top-notch products and services to meet your business needs.{" "}
             </h1>
           </div>
           <div className="flex space-x-4 py-4">
@@ -87,15 +87,17 @@ export default function Footer2() {
           </a>
           <a href="/about">About Us</a>
           <a href="/services"> Services</a>
-          <a href="/team">Team</a>
+          <a href="/coffee">Coffee</a>
         </div>
         <div>
           <h1 className="text-xl font-semibold py-2">Services</h1>
 
-          <h1>Healthcare & Medical Solutions</h1>
-          <h1>Automotive & Industrial Solutions</h1>
-          <h1>Fashion & Lifestyle Products</h1>
-          <h1>Home, Office & Business Services</h1>
+          <h1>Coffee Export</h1>
+          <h1>Electronics Import</h1>
+          <h1>Office Machine Maintenance</h1>
+          <h1>Phone Maintenance</h1>
+          <h1>Security Camera Installation & Maintenance</h1>
+          <h1>Accessory Supply</h1>
         </div>
       </div>
       <div className="border-b-2 border-gray-100 w-3/4 mx-auto my-5"></div>

@@ -25,18 +25,21 @@ export default function AboutUs() {
         <div className="mx-7  px-6 sm:px-0 my-4 p-7 text-sm space-y-2 pr-8 text-gray-800 font-montserrat">
           <h1 className="text-2xl font-semibold">About Us</h1>
           <p className="text-base">
-            At Birara Dragon Bridge General Trading, we are dedicated to
-            delivering high-quality products and services across multiple
-            industries. Our extensive offerings include essential medical
-            supplies, such as scrubs and equipment, to support healthcare
-            professionals. In the machinery and electronics sector, we provide
-            the latest automobiles and heavy machinery, ensuring access to
-            cutting-edge technology. Our fashion line features stylish clothing,
-            accessories, and 100% human hair products, catering to diverse
-            customer preferences. We also supply modern furnishings for both
-            residential and commercial spaces. Additionally, our expert
-            consulting services aim to optimize operations, with a strong
-            commitment to quality and customer satisfaction.
+            At Sifen General Trading, we are dedicated to bridging quality
+            products and exceptional service across diverse industries. With a
+            strong presence in the coffee export market, we source premium
+            Ethiopian coffee beans directly from local farmers, bringing the
+            rich flavors of Ethiopia to clients worldwide. In addition to
+            coffee, we specialize in the import of high-quality electronics,
+            including PCs, phones, security cameras, and essential accessories.
+            We ensure that our clients receive only the best products from
+            trusted manufacturers. Our expertise extends beyond product
+            supply—we also provide maintenance services for office machines,
+            phones, and security cameras, ensuring that businesses and
+            individuals have reliable, well-maintained equipment for seamless
+            operations. With a commitment to quality, integrity, and customer
+            satisfaction, Sifen General Trading stands ready to meet your needs
+            and exceed your expectations.
           </p>
         </div>
       </div>
