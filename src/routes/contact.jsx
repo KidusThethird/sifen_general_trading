@@ -44,7 +44,7 @@ const ContactUs = () => {
           <div className="flex items-center space-x-3 md:w-1/2">
             <MapPin size={32} className="text-orange-400" />
             <div className="text-gray-700">
-             <h1>Megenagna, Meseret D.blg 2nd Floor, Addis Ababa , Ethiopia</h1>
+             <h1>Megenagna, Meseret Defar blg 2nd Floor, Addis Ababa , Ethiopia</h1>
             </div>
           </div>
         </div>
