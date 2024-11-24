@@ -24,10 +24,10 @@ const ContactUs = () => {
           <div className="space-y-4 md:w-1/2">
             <div className="flex items-center space-x-3">
               <Phone className="h-6 w-6 text-orange-400" />
-              <span className="text-gray-700"></span>
+              <span className="text-gray-700">+2519 04 85 49 10</span>
             </div>
 
-            <div className="flex items-center space-x-3">
+            {/* <div className="flex items-center space-x-3">
               <img
                 src={whatsapp}
                 alt="WhatsApp"
@@ -37,14 +37,14 @@ const ContactUs = () => {
                 <span className="text-gray-700 block"></span>
                 <span className="text-gray-700 block"></span>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Address Info */}
           <div className="flex items-center space-x-3 md:w-1/2">
             <MapPin size={32} className="text-orange-400" />
             <div className="text-gray-700">
-             
+             <h1>Megenagna, Meseret D.blg 2nd Floor, Addis Ababa , Ethiopia</h1>
             </div>
           </div>
         </div>
